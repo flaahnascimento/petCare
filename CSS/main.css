@@ -121,6 +121,7 @@ li {
     margin-top: 28px;
 }
 
+/* Config da Seção farmacia */
 #farmacia {
     display: flex;
     align-items: center;
@@ -142,3 +143,72 @@ li {
     margin-bottom: 66px;
     margin-top: 68px;
 }
+
+/* Config da Seção duvida */
+
+
+#duvida {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 80px;
+}
+
+
+
+.duvida {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+
+#duvida h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 24px;
+    text-align: left; 
+}
+
+.duvida h3 {
+    border: 2px solid #ff725e;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.duvida img{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+
+}
+
+.duvida .paragrafo{
+    border-right: 1px solid #FF7258;
+    border-bottom: 1px solid #FF7258;
+    border-left: 1px solid #FF7258; 
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+
+    /* Eventos JS... */
+    padding: 10px 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.duvida.ativa .paragrafo{
+    opacity: 1;
+    height: fit-content;
+    overflow: 24px;
+    padding: 60px 24px 10px 24px;
+    position: relative;
+    margin-bottom: 8px;
+}
+    
+    
+
+
+
+    
