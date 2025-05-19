@@ -206,6 +206,77 @@ li {
     position: relative;
     margin-bottom: 8px;
 }
+
+/* Config da Seção contato */
+
+#contato{
+width: 100%;
+display: flex;
+flex-direction: row;
+padding: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.container-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    margin: 10px;
+    border-color: #FF7258;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+textarea{
+    margin: 10px;
+    border-color: #FF7258;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 250px;
+}
+
+.botao-contato{
+    width: 150px;
+    background-color: #FF7258;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-contato:hover{
+    background-color: aliceblue;
+    color: #FF7258;
+    transition: 0.4s;
+}
+
+select{
+    margin: 10px;
+    border-color: #FF7258;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 250px;
+}
     
     
 
